@@ -1,0 +1,35 @@
+.border{
+    border: 2px solid red;
+    margin: 2px;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-items{
+    align-items: center;
+}
+.display{
+   display: flex;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: rgb(34, 33, 33);
+    color: white;
+}
+.rounded{
+    border-radius: 7px;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #b4b0b0;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(45, 45, 45);
+    border-radius: 8px;
+}
