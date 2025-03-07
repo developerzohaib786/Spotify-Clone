@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasheed Player</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+  </style>
+  <body>
+    <div class="container justify-content display bg-black">
+      <div class="left rounded">
+        <div class="home bg-grey rounded">
+          <li class="display home-images">
+          <div class="logocontainer">
+            <div class="logo"><img width="40px" height="40px" src="favicon.ico" alt=""></div>
+            <div class="logotext23">
+             <h2 class="textlogo">Nasheed Player</h2>
+            </div>
+          </div>
+           <div class="close">
+            <img src="images/close.svg" alt="">
+           </div>
+          </li>
+
+          <ul>
+            <li class="display home-images">
+              <img
+                src="images/home.png"
+                width="20px"
+                height="20px"
+                alt="Home"
+              />
+              <h3>Home</h3>
+            </li>
+            <li class="display home-images">
+              <img
+                src="images/search.png"
+                width="20px"
+                height="20px"
+                alt="Search"
+              />
+              <h3>Search</h3>
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded">
+          <div class="library-top">
+        <div class="yourlibrary">
+          <div class="libicon">     <img
+            width="30px"
+            height="30px"
+            src="images/library.png"
+            alt="Library"
+          /></div>
+          <div class="libtext"><h2>Your Library</h2></div>
+        </div>
+        <div class="plus">   <img
+          class="add"
+          width="20px"
+          height="20px"
+          src="images/add.png"
+          alt="add"
+        /></div>
+          </div>
+          <div class="songList">
+            <ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded">
+        <div class="right-navbar">
+          <div class="nav">
+            <img class="hamburger" src="images/hamburger.svg" alt="">
+           <img class="widthclass" src="images/backico.svg" alt="">
+           <img class="widthclass" src="images/nextico.svg" alt="">
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Signup</button>
+            <button class="loginbtn">Login</button>
+          </div>
+        </div>
+        <div class="spotifyplaylist">
+          <h1>Your Playlist</h1>
+          <div class="cardcontainer">
+     
+          </div>
+        </div>
+<div class="audioplayer">
+<div class="seekbar">
+  <div class="circle"></div>
+</div>
+  <div class="songinfo"></div>
+  <div class="controlbtns">
+    <img id="previous" src="images/backaudio.svg"  alt="">
+    <img id="play" src="images/pause.svg"     width="30px" height="30px" alt="">
+    <img id="next" src="images/nextaudio.svg" alt="">
+  </div>
+<div class="volcontrol">
+  <div class="songtime"></div>
+  <div class="volume"><img src="images/volume.svg" alt=""><input  type="range" name="volume"></div>
+
+</div>
+
+
+</div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
