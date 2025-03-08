@@ -4,8 +4,8 @@
 let currentFolder;
 async function getNasheeds(folder){
      currentFolder=folder;
-    // getting songs from the url="http://127.0.0.1:3000/songs/";
-    let a= await fetch(`http://127.0.0.1:3000/${folder}`);
+    // getting songs from the url="/songs/";
+    let a= await fetch(`/${folder}/`);
     let response=await a.text();
     let div=document.createElement("div");
     div.innerHTML=response;
